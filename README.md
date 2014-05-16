@@ -19,4 +19,5 @@ $ serve
 Options:
 
 -dir=".": Directory to serve
+
 -port=8080: Port to run server on
