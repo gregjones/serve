@@ -18,5 +18,7 @@ func init() {
 }
 
 func main() {
+	fmt.Printf("Serving files from %s, running on http://localhost:%d\n", dir, port)
 	http.ListenAndServe(fmt.Sprintf(":%d", port), http.FileServer(http.Dir(dir)))
+
 }
